@@ -10,3 +10,6 @@ hpp
 jsonwebtoken
 mongoose
 nodemailer
+
+npm -> Node Package Manager
+npx -> Node Package eXecute
