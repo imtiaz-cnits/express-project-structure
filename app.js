@@ -19,5 +19,9 @@ app.use(cookie());
 // Disable Response Cache
 app.set("etag", false);
 
+// Request Size Limit
+app.use(express.json({ limit: "20MB" }));
+app.use(express.urlencoded({ limit: false }));
+
 // Database Connection
-app.use(mongoose());
+mongoose.connect("", { autoIndex: true });
