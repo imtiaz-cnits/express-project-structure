@@ -1,7 +1,7 @@
 {
   "name": "express-project-structure",
   "version": "1.0.0",
-  "description": "Some express.js packages:-\r axios\r cookie-parser\r cors\r express\r express-rate-limit\r express-validator\r helmet\r hpp\r jsonwebtoken\r mongoose\r nodemailer",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
